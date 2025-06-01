@@ -46,7 +46,7 @@ jobs:
         cd NetflixInfra
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git add tf/polybot/values.yaml
+        git add tf/helm/polybot/values.yaml
         git commit -m "Update polybot image tag to $IMAGE_TAG"
         git pull origin main
         git push
