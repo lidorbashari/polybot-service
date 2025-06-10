@@ -16,7 +16,7 @@ predictions_collection = db["predictions"]
 
 # pull telegram token from aws secret manager:
 def get_secret():
-    secret_name = "lidor-telegram-bot-token"
+    secret_name = "lidor-telegram-tf-token"
     region_name = "eu-north-1"
 
     # Create a Secrets Manager client
